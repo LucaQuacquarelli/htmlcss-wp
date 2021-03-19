@@ -23,20 +23,28 @@ header, nav, .title {
     margin-bottom: 20px;
 }
 
-aside, section {
+h4 {
+    padding: 20px 0 10px;
+}
+
+p {
+    font-size: 12px;
+    color: white;
+}
+
+.little-content, .content {
     float: left;
-    height: 500px;
+}
+
+.banner, 
+.black-banner, 
+.profit, 
+.work, 
+.idea{
+    border-radius: 20px;
 }
 
 /* debug */
-
-main {
-    background-color: #0086FF;
-}
-
-.title, aside, section {
-    background-color: #ABCFE7;
-}
 
 footer {
     background-color: #8800FD;
@@ -77,10 +85,8 @@ nav {
     opacity: 0.8;
 }
 
-.banner > h1,p {
+.banner > h2 {
     color: white;
-}
-.banner > h1 {
     padding: 300px 200px 0 50px;
 }
 
@@ -92,18 +98,53 @@ main {
     padding-bottom: 20px;
 }
 
-.title {
-    height: 80px;
+.title > p {
+    color: grey;
 }
 
-aside {
+.little-content {
     width: 24%;
 }
 
-section {
+.little-content > p {
+    color: gray;
+}
+.profit {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+    opacity: 0.8;
+}
+
+.content {
     width: 50%; 
     margin: 0 1%;
 }
+
+.content > p {
+    color: gray;
+}
+
+.work {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: 0 -70px;
+    opacity: 0.8;
+}
+
+.idea {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: -40px 0;
+    opacity: 0.8;
+}
+
 
 footer {
     height: 50px;
