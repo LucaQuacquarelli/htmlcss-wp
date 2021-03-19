@@ -1,0 +1,111 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header, nav, .title {
+    margin-bottom: 20px;
+}
+
+aside, section {
+    float: left;
+    height: 500px;
+}
+
+/* debug */
+
+main {
+    background-color: #0086FF;
+}
+
+.title, aside, section {
+    background-color: #ABCFE7;
+}
+
+footer {
+    background-color: #8800FD;
+}
+/* debug */
+
+
+nav {
+    margin-top: 30px;
+}
+.logo {
+    width: 15%;
+}
+.link > li {
+    display: inline-block;
+    list-style: none;
+}
+.link a {
+    padding: 10px 10px 10px 0;
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: black;
+}
+
+.black-banner {
+    background-color: black;
+}
+
+.banner {    
+    height: 450px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: 50%;
+    opacity: 0.8;
+}
+
+.banner > h1,p {
+    color: white;
+}
+.banner > h1 {
+    padding: 300px 200px 0 50px;
+}
+
+.banner > p {
+    padding: 0 350px 0 50px;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+.title {
+    height: 80px;
+}
+
+aside {
+    width: 24%;
+}
+
+section {
+    width: 50%; 
+    margin: 0 1%;
+}
+
+footer {
+    height: 50px;
+    margin-top: 10px;
+}
